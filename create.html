@@ -12,22 +12,28 @@
     </header>
     <main>
         <form>
-            <label for="question">
-                Add your question here:
-                <textarea name="question" id="question"></textarea>
-            </label>
+            <div class="create-form__question">
+                <label for="question">
+                    Add your question here:
+                    <textarea name="question" id="question"></textarea>
+                </label>
+            </div>
 
-            <label for="answer">
-                Add the answer here:
-                <textarea name="answer" id="answer"></textarea>
-            </label>
+            <div class="create-form__answer">
+                <label for="answer">
+                    Add the answer here:
+                    <textarea class="create-form__answer" name="answer" id="answer"></textarea>
+                </label>
+            </div>
 
-            <label for="tags">
-                Add some tags:
-                <input name="tags" type="text" id="tags">
-            </label>
+            <div class="create-form__tags">
+                <label for="tags">
+                    Add some tags:
+                    <input create__tags name="tags" type="text" id="tags">
+                </label>
+            </div>
 
-            <button type="submit">Submit</button>
+            <button class="create-form__button" type="submit">Submit</button>
         </form>
     </main>
     <footer>
