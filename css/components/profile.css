@@ -16,42 +16,44 @@
 }*/
 
 .profile__header {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-left: 1.5em;
-    display: block;
-  }
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 1.5em;
+  display: block;
+}
 
 .profile__text {
-    margin-left: 1em;
+  margin-left: 1em;
+  font-size: 20px;
 }
 
 .about-you__text {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
 .skill-card__tags {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
 }
 .skill-card__tag {
-    margin: 0 auto 1em;
-    padding: 0.2em 0.5em;
-    border: 1px solid #000;
-    background-color: #efefef;
+  margin: 0 auto 1em;
+  padding: 0.2em 0.5em;
+  border: 1px solid #000;
+  background-color: #efefef;
 }
 
 .profile-logout__button {
-    margin: 0 auto 1em;
-    display: block;
-    padding: .5em 1em;
-    text-transform: uppercase;
+  margin: 0 auto 1em;
+  display: block;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
 }

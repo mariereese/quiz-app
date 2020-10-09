@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>CSS Tooling with Parcel</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>CREATE</h1>
+      <h1>CREATE</h1>
     </header>
     <main>
-        <section class="create-form">
-            <form>
-                <div class="create-form__question">
-                    <label for="question">
-                        Add your question here:
-                        <textarea class="create-form__textarea" name="question" id="question"></textarea>
-                    </label>
-                </div>
+      <section class="create-form">
+        <form>
+          <div class="create-form__question">
+            <label for="question">
+              Add your question here:
+              <textarea
+                class="create-form__textarea"
+                name="question"
+                id="question"
+              ></textarea>
+            </label>
+          </div>
 
-                <div class="create-form__answer">
-                    <label for="answer">
-                        Add the answer here:
-                        <textarea class="create-form__textarea" name="answer" id="answer"></textarea>
-                    </label>
-                </div>
+          <div class="create-form__answer">
+            <label for="answer">
+              Add the answer here:
+              <textarea
+                class="create-form__textarea"
+                name="answer"
+                id="answer"
+              ></textarea>
+            </label>
+          </div>
 
-                <div class="create-form__tags">
-                    <label for="tags">
-                        Add some tags:
-                        <input class="create-form__text-input" name="tags" type="text" id="tags">
-                    </label>
-                </div>
+          <div class="create-form__tags">
+            <label for="tags">
+              Add some tags:
+              <input
+                class="create-form__text-input"
+                name="tags"
+                type="text"
+                id="tags"
+              />
+            </label>
+          </div>
 
-                <button class="create-form__button" type="submit">Submit</button>
-            </form>
-        </section>
+          <button class="create-form__button" type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="bookmarks.html">Book- mark</a></li>
-                <li><a href="create.html">Create Question</a></li>
-                <li><a href="profile.html">Profile</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bookmarks.html">Book- mark</a></li>
+          <li><a class="active" href="create.html">Create Question</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
