@@ -11,30 +11,32 @@
         <h1>CREATE</h1>
     </header>
     <main>
-        <form>
-            <div class="create-form__question">
-                <label for="question">
-                    Add your question here:
-                    <textarea name="question" id="question"></textarea>
-                </label>
-            </div>
+        <section class="create-form">
+            <form>
+                <div class="create-form__question">
+                    <label for="question">
+                        Add your question here:
+                        <textarea class="create-form__textarea" name="question" id="question"></textarea>
+                    </label>
+                </div>
 
-            <div class="create-form__answer">
-                <label for="answer">
-                    Add the answer here:
-                    <textarea class="create-form__answer" name="answer" id="answer"></textarea>
-                </label>
-            </div>
+                <div class="create-form__answer">
+                    <label for="answer">
+                        Add the answer here:
+                        <textarea class="create-form__textarea" name="answer" id="answer"></textarea>
+                    </label>
+                </div>
 
-            <div class="create-form__tags">
-                <label for="tags">
-                    Add some tags:
-                    <input create__tags name="tags" type="text" id="tags">
-                </label>
-            </div>
+                <div class="create-form__tags">
+                    <label for="tags">
+                        Add some tags:
+                        <input class="create-form__text-input" name="tags" type="text" id="tags">
+                    </label>
+                </div>
 
-            <button class="create-form__button" type="submit">Submit</button>
-        </form>
+                <button class="create-form__button" type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <footer>
         <nav>
