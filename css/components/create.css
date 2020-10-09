@@ -6,25 +6,13 @@ form {
     justify-content: space-evenly;
     margin: 0 auto;
 }
+.create-form {
+    padding: 2em;
+}
+
 label {
     margin: 0;
     display: block;
-}
-
- .create-form__textarea {
-     display: block;
-     width: 300px;
-     height: 100px;
-}
-
-.create-form__text-input {
-    display: block;
-    width: 300px;
-    height: 30px;
-}
-
-.create-form {
-    padding: 2em;
 }
 
 .create-form__question {
@@ -37,7 +25,20 @@ label {
 
 .create-form__tags {
     margin-bottom: 2em;
-    
+}
+
+.create-form__textarea {
+    display: block;
+    width: 325px;
+    height: 120px;
+    border: 1px solid #000;
+}
+
+.create-form__text-input {
+   display: block;
+   width: 325px;
+   height: 35px;
+   border: 1px solid #000;
 }
 
 .create-form__button {
@@ -45,8 +46,6 @@ label {
     display: block;
     padding: .5em 1em;
     text-transform: uppercase;
-    
-
 }
 
 
