@@ -25,8 +25,13 @@ footer li:last-child {
   border-right: none;
 }
 
+nav a:link,
+nav a:visited {
+    color: black;
+}
+
 .active {
   color: black;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
