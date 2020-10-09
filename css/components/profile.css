@@ -15,13 +15,17 @@
     margin-left: 1em;
 }*/
 
-
+.profile__header {
+    display: flex;
+    justify-content: space-around;
+}
 
 img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-left: 1,5em;
+    margin-left: 1.5em;
+    display: block;
   }
 
 .profile__text {
